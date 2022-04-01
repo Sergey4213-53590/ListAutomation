@@ -13,8 +13,7 @@ describe("testList", () => {
 
     it("search", () => {
         cy.get(pageSelector.searchId).type(searchName.searching);
-        cy.get(pageSelector.buttonId).click();
-        
+        cy.get(pageSelector.buttonId).click(); 
     })
 
     it("majorAssertions", () => {
