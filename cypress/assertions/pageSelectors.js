@@ -1,6 +1,8 @@
 export const searchName = {
     listId: '#l',
-    searchBoxId: '#idSearchBox'
+    searchBoxId: '#idSearchBox',
+    placeHolderId: "placeholder"
+    
 } 
 
 export const web = {
@@ -27,6 +29,7 @@ export const pageSelector = {
     regionId: '.at',
     norNorqId: 'div[data-value="10"]',
     searchId: '#idSearchBox',
+    clearListId: '#ui-id-3',
     buttonId: 'button',
     lookingFor: '#idtype1',
     suggest: '#idtype0',
@@ -55,10 +58,21 @@ export const pageSelector = {
 }
 
 export const domElements = {
+    homePage: 'body',
     div: 'div',
     label: 'label',
     text: 'text',
-    equal: 'equal'
+    equal: 'equal',
+    attr: 'attr',
+    haveCss: 'have.css',
+    color: 'color',
+    colorRgb: 'rgb(51, 51, 51)',
+    fontSize: 'font-size',
+    fontPx: '15px',
+    height: 'height',
+    heightPx: '36px',
+    borderRadius: 'border-radius',
+    radiusPx: '18px'
 }
 
 export const expressionData = {

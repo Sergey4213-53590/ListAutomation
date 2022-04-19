@@ -7,7 +7,6 @@ class Search {
     typeText(){
         return cy.get(pageSelector.searchId)
     }
-
     clickBtnSearch(){
         return cy.get(pageSelector.buttonId)
     }
@@ -31,6 +30,12 @@ class Search {
     }
     listAmButton(){
         return cy.get(searchName.listId)
+    }
+    placeholderVisible(){
+        return cy.get(pageSelector.searchId).invoke(domElements.attr, searchName.placeHolderId)
+    }
+    clearListBtn(){
+        return cy.get(pageSelector.clearListId)
     }
     
 }
